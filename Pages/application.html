@@ -1,0 +1,124 @@
+<html> 
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script> 
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script> 
+    <body id="corpo" style="margin : 0px; overflow: hidden;"> 
+        <a-scene arjs="debugUIEnabled: false;">
+          
+            <!--Marker do Alfabeto-->
+        <a-marker id="markerLetterA" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-A.patt">
+           <a-entity 
+              gltf-model="url(https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/modelo3d/modelB.gltf)"  position = "0 0 0" scale= "100 25 25" rotation= "-90  0 0" >
+          </a-entity>            
+        </a-marker>
+          
+            <a-marker id="markerLetterB" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-B.patt">
+                <a-entity id="letterBModel" gltf-model="#letterB" scale="0.1 0.1 0.1" rotation="0 0 0" position="0 0 0" width = "0.1"></a-entity> 
+            </a-marker>
+          
+            <a-marker id="markerLetterC" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-C.patt">
+                <a-entity id="letterCModel" gltf-model="#letterC" scale="0.1 0.1 0.1" rotation="0 0 0" position="0 0 0" width = "0.1"></a-entity> 
+            </a-marker>
+          
+            <a-marker id="markerLetterD" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-D.patt">
+                <a-entity id="letterDModel" gltf-model="#letterD" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+            <a-marker id="markerLetterE" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-E.patt">
+               <a-entity id="letterEModel" gltf-model="#letterE" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+            <a-marker id="markerLetterF" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-F.patt">
+               <a-entity id="letterFModel" gltf-model="#letterF" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+            <a-marker id="markerLetterG" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-G.patt">
+               <a-entity id="letterGModel" gltf-model="#letterG" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+            <a-marker id="markerLetterH" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-H.patt">
+               <a-entity id="letterHModel" gltf-model="#letterH" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+            <a-marker id="markerLetterI" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-I.patt">
+               <a-entity id="letterIModel" gltf-model="#letterI" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterJ" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-J.patt">
+               <a-entity id="letterJModel" gltf-model="#letterJ" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterK" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-K.patt">
+               <a-entity id="letterKModel" gltf-model="#letterK" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterL" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-L.patt">
+               <a-entity id="letterLModel" gltf-model="#letterL" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterM" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-M.patt">
+               <a-entity id="letterMModel" gltf-model="#letterM" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterN" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-N.patt">
+               <a-entity id="letterNModel" gltf-model="#letterN" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterO" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-O.patt">
+               <a-entity id="letterOModel" gltf-model="#letterO" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterP" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-P.patt">
+               <a-entity id="letterPModel" gltf-model="#letterP" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterQ" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-Q.patt">
+               <a-entity id="letterQModel" gltf-model="#letterQ" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterR" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-R.patt">
+               <a-entity id="letterRModel" gltf-model="#letterR" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterS" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-S.patt">
+               <a-entity id="letterSModel" gltf-model="#letterS" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterT" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-T.patt">
+               <a-entity id="letterTModel" gltf-model="#letterT" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+                     
+            <a-marker id="markerLetterU" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-U.patt">
+                <a-entity id="letterUModel" gltf-model="#letterU" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+             </a-marker>
+          
+          <a-marker id="markerLetterV" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-V.patt">
+               <a-entity id="letterVModel" gltf-model="#letterV" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterW" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-W.patt">
+               <a-entity id="letterWModel" gltf-model="#letterW" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterX" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-X.patt">
+               <a-entity id="letterXModel" gltf-model="#letterX" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterY" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-Y.patt">
+               <a-entity id="letterYModel" gltf-model="#letterY" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          <a-marker id="markerLetterZ" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/rodrigoqfcosta/projectEngSof_III/master/Marcadores/pattern-Z.patt">
+               <a-entity id="letterZModel" gltf-model="#letterZ" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+            </a-marker>
+          
+          
+            <a-entity camera></a-entity> 
+        </a-scene> 
+      
+      <div id="load"></div>
+      
+      <script src="script.js"></script>
+    </body> 
+</html>
+
+
