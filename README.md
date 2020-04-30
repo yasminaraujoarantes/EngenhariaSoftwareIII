@@ -13,13 +13,15 @@
 - A-Frame 0.9.2  
 - Javascript  
 
-### Alfabetização 
+### O projeto 
   A aplicação tem o intuito de auxiliar o professor regente do Ensino Fundamental I na alfabetização,  
 utilizando a formação de palavras que identifica um animal.
 
+### Situação atual do projeto: (Em andamento)
+  O projeto encontra-se em desenvolvimento e na fase atual, já é possível exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera.
+
 ### Implementação da aplicação: (Em andamento)
 [Código HTML](https://glitch.com/edit/#!/engenharia-software?path=index.html)
-
 
 ### Marcadores em PDF:
 [Marcadores](https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/raw/master/Markers/Markers.pdf)
