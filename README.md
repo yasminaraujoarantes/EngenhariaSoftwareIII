@@ -21,6 +21,6 @@ utilizando a formação de palavras que identifica um animal.
 [Código HTML](https://glitch.com/edit/#!/engenharia-software?path=index.html)
 
 
-### Marcadores em .pdf
+### Marcadores em PDF:
 [Marcadores](https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/raw/master/Markers/Markers.pdf)
 
