@@ -13,26 +13,9 @@ body {
    background-color: #cff; } /*azul claro*/
 
 h1 {
-  font-size: 100px;
-  color: #cff;
+  font-size: 70px;
+  color: black;
   margin: 0px 0px 15px 0px;
-}
-
-b{
-  font-size: 100px;
-  color: #0B0B61;
-}
-
-h2 {
-  font-size: 30px;
-  color: blue;
-  margin: 80px 0px 50px 0px;
-  color: #cff;
-}
-
-p{
-  font-size: 24px;
-  color: #0B0B61
 }
 
 button{
