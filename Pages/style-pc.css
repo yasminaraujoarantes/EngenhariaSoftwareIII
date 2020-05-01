@@ -9,6 +9,17 @@ div.container{
   border-width: 3px;
 }
 
+div.container-centralizado {
+	 width: 100vw;
+	 height: 100vh;
+	 background: #6C7A89;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+   background-image: url("https://i2.wp.com/cdn.escolasexponenciais.com.br/wp-content/uploads/2018/11/qual-a-influencia-da-infraestrutura.jpg?fit=800%2C533&ssl=1");
+ }
+
 body {
    background-color: #cff; } /*azul claro*/
 
