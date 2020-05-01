@@ -5,34 +5,24 @@
   </head>
   <body>
     <div class="bigTitle">
-      <h1>Bem-Vindos!</h1>  
-      <h2>Aplicação para Alfabetização</h2>
-      
-      <p>
-           A aplicação tem o intuito de auxiliar a professora Regente na alfabetização dos alunos. 
-        <br>
-          Para usar esta ferramenta, por favor utilize os marcadores para visualizar as letras.
-        <br>
-      </p>
-
-	<table class="fancy"><tr>
-		<td><a href="application.html"><img src="Pages/line.png" class="superImage" /></a></td>
-		<td class="tableText"><a href="application.html">Urso</a>
-		<p> Uma cena básica que mostra o urso após a criança formar a palavra correta (Marcadores: U, R, S e O).</p></td>
-	</tr></table>
-      <br>
-      <b>Para acesso aos marcadores, faça o download abaixo!</b>
+      <h1>Nome Aplicação</h1>  
       
       <br>
       <div class="botoes">
+	<button onclick="iniciar()">Iniciar</button>
+
         <button onclick="baixarMarkers()">Marcadores</button>
 
-        <button onclick="help()">?</button>
+        <button onclick="help()">Help</button>
       </div>
       
     </div>    
     
     <script>
+      function iniciar() {
+        window.location.href="https://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/telaInicial.html";
+      } 
+
       function baixarMarkers() {
         window.location.href="https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/raw/master/Markers/Markers.pdf";
       } 
