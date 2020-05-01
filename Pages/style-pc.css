@@ -22,7 +22,8 @@ div.container-centralizado {
  }
 
 body {
-   background-color: #cff; } /*azul claro*/
+   background-color: #cff; background-repeat: no-repeat; 
+     }
 
 h1 {
   font-size: 70px;
