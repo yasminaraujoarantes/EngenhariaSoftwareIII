@@ -1,0 +1,38 @@
+ .container {
+	 width: 100vw;
+	 height: 100vh;
+	 background: grey;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+ .box {
+   border-radius: 5px;
+   padding: 20px;
+	 /*background: rgba(255, 255, 255, .7);*/
+	 text-align: left;
+ }
+h1{
+  text-align: center;
+  margin: 50px;
+  height: 10px;
+  color: black;
+  font-family: "Courier New";
+}
+ body {
+	margin: 0px;
+ }
+button {
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #408559;
+  color: white;
+  height: 30px;
+  width: 200px;
+  font-family: "Courier New";
+}
