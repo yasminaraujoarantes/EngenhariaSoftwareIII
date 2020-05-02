@@ -14,8 +14,8 @@
  .box {
    border-radius: 5px;
    padding: 20px;
-	 background: rgba(255, 255, 255, .7);
-	 text-align: center;
+   background: rgba(255, 255, 255, .7);
+   text-align: center;
  }
  body {
 	margin: 0px;
@@ -36,6 +36,7 @@ h1 {
   color: black;
   font-family: "Courier New";
 }
+
 input{
   margin: 5px;
   border-radius: 5px;
