@@ -19,9 +19,9 @@
       <div class="selecionar-palavras">
         <p>Olá, está preparado para aprender? Clique na figura para selecionar a palavra que deseja montar</p>
 	      <a href="application.html">
-		<img class="imagem-palavra" src="../Imagens/teddy-bear-447417_1280.png" alt="Urso" onclick="tocarSomVaca()">
+		<img class="imagem-palavra" src="../Imagens/teddy-bear-447417_1280.png" alt="Urso" mouseOver="tocarSomVaca()">
 	      </a>
-		<img class="imagem-palavra" src="../Imagens/owl-42851_1280.png" alt="Coruja" onclick="tocarSomUrso()">
+		<img class="imagem-palavra" src="../Imagens/owl-42851_1280.png" alt="Coruja">
 		<img class="imagem-palavra" src="../Imagens/cow-35561_1280.png" alt="Vaca" onclick="tocarSomVaca()">
 		<img class="imagem-palavra" src="../Imagens/giraffe-308771_1280.png" alt="Girafa" >
       </div>  
@@ -35,10 +35,6 @@
       } 
       function tocarSomVaca(){
 	var audio = new Audio("../Sons/Vaca SMS.mp3");
-	audio.play();
-      }
-      function tocarSomUrso(){
-	var audio = new Audio("../Sons/Bear1.wav");
 	audio.play();
       }
     </script>
