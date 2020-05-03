@@ -21,7 +21,7 @@ utilizando a formação de palavras que identifica um animal.
   O projeto encontra-se em desenvolvimento e na fase atual, já é possível exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera.
 
 ### Acesso a aplicação: (Em andamento)
-[Início](https://yasminaraujoarantes.github.io/EngenhariaSoftwareIII//Pages/index.html)
+[Monte a Palavra](https://yasminaraujoarantes.github.io/EngenhariaSoftwareIII//Pages/index.html)
 
 ### Marcadores em PDF:
 [Marcadores](https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/raw/master/Markers/Markers.pdf)
