@@ -11,7 +11,9 @@
 ### Tecnologias utilizadas: 
 - AR.js 1.7.5  
 - A-Frame 0.9.2  
-- Javascript  
+- JavaScript
+- CSS
+- HTML
 
 ### O projeto 
   A aplicação tem o intuito de auxiliar o professor regente do Ensino Fundamental I na alfabetização,  
