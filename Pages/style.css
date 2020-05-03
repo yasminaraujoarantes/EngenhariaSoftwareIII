@@ -6,7 +6,7 @@
 	 flex-direction: row;
 	 justify-content: center;
 	 align-items: center;
-   background-image: url("https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/blob/master/Imagens/letters-3704026_1920.jpg");
+   background-image:  window.location.href=("https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/blob/master/Imagens/letters-3704026_1920.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
