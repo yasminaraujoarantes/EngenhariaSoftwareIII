@@ -23,17 +23,20 @@
 	      </a>
 		<img class="imagem-palavra" src="../Imagens/owl-42851_1280.png" alt="Coruja">
 		<img class="imagem-palavra" src="../Imagens/cow-35561_1280.png" alt="Vaca">
-		<img class="imagem-palavra" src="../Imagens/giraffe-308771_1280.png" alt="Girafa">
+		<img class="imagem-palavra" src="../Imagens/giraffe-308771_1280.png" alt="Girafa" onclick="tocarSomGirafa()">
       </div>  
     </div>
     <script>
      function baixarMarkers() { 
         window.location.href="https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/raw/master/Markers/Markers.pdf";
       } 
-
       function regras() {
         alert("Para executar a aplicação, baixe os Marcadores e aponte eles para a câmera.");
       } 
+      function tocarSomGirafa(){
+	var audio = new Audio("../Sons/Girafa.m4a");
+	audio.play();
+      }
     </script>
   </div>
 </body>
