@@ -69,24 +69,3 @@ input{
    width: 100%;
    height: 100%;
 }
-.superImage
-{  
-	height: 150px;
-	width: 225px;
-	border: 1px solid #000000;
-	margin: 0px 20px 0px 0px;
-	float: left;
-	
-	/* Rounded corners */
-	-moz-border-radius: 15px 15px 15px 15px;
-	-webkit-border-radius: 15px 15px 15px 15px;
-	border-radius: 15px 15px 15px 15px;
-	
-	position: relative; 
-	
-	-webkit-transition: all 300ms ease-in-out;
-	-moz-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
-	-ms-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out; 
-}  
