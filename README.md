@@ -20,6 +20,8 @@ utilizando a formação de palavras que identifica um animal.
 ### Situação atual do projeto: (Em andamento)
   O projeto encontra-se em desenvolvimento e na fase atual, já é possível exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera.
 
+[Link](https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/blob/master/Monte%20a%20Palavra%20-%20Google%20Chrome%202020-05-03%2013-01-36.mp4)
+
 ### Acesso a aplicação: (Em andamento)
 [Monte a Palavra](https://yasminaraujoarantes.github.io/EngenhariaSoftwareIII//Pages/index.html)
 
