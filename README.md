@@ -19,7 +19,7 @@
   A aplicação tem o intuito de auxiliar o professor regente do Ensino Fundamental I na alfabetização,  
 utilizando a formação de palavras que identifica um animal.
 
-### Situação atual do projeto: (Em andamento)
+### Situação atual do projeto: (1º quinzena de Maio)
   O projeto encontra-se em desenvolvimento e na fase atual, já é possível exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera.
   
  [![](http://img.youtube.com/vi/ggkmv5EE6iE/0.jpg)](http://www.youtube.com/watch?v=ggkmv5EE6iE "Monte a Palavra(Situação atual)")
