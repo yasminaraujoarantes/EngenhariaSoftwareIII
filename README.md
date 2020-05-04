@@ -1,7 +1,7 @@
 # Engenharia de Software III (ADS)
 
 ### Realizado por:
-- Rodrigo Marcelino Silva Amorim | RA: 1460481821080 | E-mail:
+- Rodrigo Marcelino Silva Amorim | RA: 1460481821080 | E-mail: rodrigo.amorim8@fatec.sp.gov.br
 - Rodrigo Querio Ferreira da Costa | RA: 1460481821081 | E-mail: rodrigo.costa44@fatec.sp.gov.br
 - Yasmin de Araújo Arantes | RA: 1460481821087 | E-mail: yasmin.arantes@fatec.sp.gov.br
     
