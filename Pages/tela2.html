@@ -19,11 +19,11 @@
       <div class="selecionar-palavras">
         <p>Olá, está preparado para aprender? Clique na figura para selecionar a palavra que deseja montar</p>
 	      <a href="application.html">
-		<img class="imagem-palavra" src="../Imagens/teddy-bear-447417_1280.png" alt="Urso" onclick="">
+		<img class="imagem-palavra" src="../Imagens/teddy-bear-447417_1280.png" alt="Urso" onclick="tocarSomUrso()">
 	      </a>
-		<img class="imagem-palavra" src="../Imagens/frog-152631_1280.png" alt="Sapo" onclick="">
+		<img class="imagem-palavra" src="../Imagens/frog-152631_1280.png" alt="Sapo" onclick="tocarSomSapo()">
 		<img class="imagem-palavra" src="../Imagens/cow-35561_1280.png" alt="Vaca" onclick="tocarSomVaca()">
-		<img class="imagem-palavra" src="../Imagens/giraffe-308771_1280.png" alt="Girafa" onclick="" >
+		<img class="imagem-palavra" src="../Imagens/giraffe-308771_1280.png" alt="Girafa" onclick="tocarSomGirafa()" >
 	        <img class="imagem-palavra" src="../Imagens/owl-42851_1280.png" alt="Coruja" onclick="tocarSomCoruja()">
       </div>  
     </div>
@@ -40,6 +40,18 @@
       }
       function tocarSomCoruja(){
 	var audio = new Audio("../Sons/coruja (1).mp3");
+	audio.play();
+      }
+      function tocarSomUrso(){
+	var audio = new Audio("../Sons/urso.mp3");
+	audio.play();
+      }
+      function tocarSomSapo(){
+	var audio = new Audio("../Sons/sapo.mp3");
+	audio.play();
+      }
+      function tocarSomGirafa(){
+	var audio = new Audio("../Sons/girafa.mp3");
 	audio.play();
       }
     </script>
