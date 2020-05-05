@@ -45,6 +45,7 @@
       function tocarSomUrso(){
 	var audio = new Audio("../Sons/urso.mp3");
 	audio.play();
+	setTimeout(function(){chamarPaginaCameraUrso()}, 3000);
       }
       function tocarSomSapo(){
 	var audio = new Audio("../Sons/sapo.mp3");
@@ -54,6 +55,9 @@
 	var audio = new Audio("../Sons/girafa.mp3");
 	audio.play();
       }
+     function chamarPaginaCameraUrso(){ 
+	window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/application.html";
+     }
     </script>
   </div>
 </body>
