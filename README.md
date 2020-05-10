@@ -22,7 +22,7 @@ utilizando a formação de palavras que identifica um animal.
 ### Situação atual do projeto: (1º quinzena de Maio / Parte 2)
   O projeto encontra-se em desenvolvimento e na fase atual, já é possível fazer o download dos marcadores em PDF, visualizar as regras e exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera. Também é exibida uma linha a qual começa a partir da letra U e é utilizada para guiar a criança a posicionar corretamente as letras. 
   
- [!(https://www.youtube.com/watch?v=gC8usXaUoq4)]
+ [(https://www.youtube.com/watch?v=gC8usXaUoq4)]
 
 ### Acesso a aplicação: (Em andamento)
 [Monte a Palavra](https://yasminaraujoarantes.github.io/EngenhariaSoftwareIII//Pages/index.html)
