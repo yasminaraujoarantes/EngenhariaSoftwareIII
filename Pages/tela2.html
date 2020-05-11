@@ -33,12 +33,14 @@
         alert("Para executar a aplicação, baixe os Marcadores e aponte eles para a câmera.");
       } 
       function tocarSomVaca(){
-	var audio = new Audio("../Sons/vaca.mp3");
-	audio.play();
+        var audio = new Audio("../Sons/vaca.mp3");
+        audio.play();
+        setTimeout(chamarVaca(), 3000)
       }
       function tocarSomCoruja(){
-	var audio = new Audio("../Sons/coruja (1).mp3");
-	audio.play();
+	      var audio = new Audio("../Sons/coruja (1).mp3");
+	      audio.play();
+        setTimeout(chamarCoruja(), 3000)
       }
       function tocarSomUrso(){
 	var audio = new Audio("../Sons/urso.mp3");
@@ -55,6 +57,12 @@
       }
      function chamarPaginaCameraUrso(){ 
 	window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/application.html";
+     }
+     function chamarVaca() {
+       window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/vaca.html"
+     }
+     function chamarCoruja() {
+      window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/coruja.html"
      }
     </script>
   </div>
