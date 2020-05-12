@@ -35,12 +35,12 @@
       function tocarSomVaca(){
         var audio = new Audio("../Sons/vaca.mp3");
         audio.play();
-        setTimeout(chamarVaca(), 6000)
+        setTimeout(function(){chamarVaca()}, 3000)
       }
       function tocarSomCoruja(){
 	var audio = new Audio("../Sons/coruja (1).mp3");
 	audio.play();
-        setTimeout(chamarCoruja(), 7000)
+        setTimeout(function(){chamarCoruja()}, 3000)
       }
       function tocarSomUrso(){
 	var audio = new Audio("../Sons/urso.mp3");
