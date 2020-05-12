@@ -24,6 +24,8 @@ utilizando a formação de palavras que identifica um animal.
   
 [![](http://img.youtube.com/vi/gC8usXaUoq4/0.jpg)](http://www.youtube.com/watch?v=gC8usXaUoq4 "Monte a Palavra(Situação Atual)")
 
+![Exemplo](WhatsApp%20Image%202020-05-10%20at%2017.24.50.jpeg)
+
 ### Acesso a aplicação: (Em andamento)
 [Monte a Palavra](https://yasminaraujoarantes.github.io/EngenhariaSoftwareIII//Pages/index.html)
 
