@@ -28,41 +28,49 @@
     <script>
      function baixarMarkers() { 
         window.location.href="https://github.com/yasminaraujoarantes/EngenhariaSoftwareIII/raw/master/Markers/Markers.pdf";
-      } 
-      function regras() {
+     } 
+     function regras() {
         alert("Para executar a aplicação, baixe os Marcadores e aponte eles para a câmera.");
-      } 
-      function tocarSomVaca(){
+     } 
+     function tocarSomVaca(){
         var audio = new Audio("../Sons/vaca.mp3");
         audio.play();
-        setTimeout(function(){chamarVaca()}, 3000)
-      }
-      function tocarSomCoruja(){
+        setTimeout(function(){chamarPaginaCameraVaca()}, 3000)
+     }
+     function tocarSomCoruja(){
 	var audio = new Audio("../Sons/coruja (1).mp3");
 	audio.play();
-        setTimeout(function(){chamarCoruja()}, 3000)
-      }
-      function tocarSomUrso(){
+        setTimeout(function(){chamarPaginaCameraCoruja()}, 3000)
+     }
+     function tocarSomUrso(){
 	var audio = new Audio("../Sons/urso.mp3");
 	audio.play();
 	setTimeout(function(){chamarPaginaCameraUrso()}, 3000);
-      }
-      function tocarSomSapo(){
+     }
+     function tocarSomSapo(){
 	var audio = new Audio("../Sons/sapo.mp3");
 	audio.play();
-      }
-      function tocarSomGirafa(){
+        setTimeout(function(){chamarPaginaCameraSapo()}, 3000);
+     }
+     function tocarSomGirafa(){
 	var audio = new Audio("../Sons/girafa.mp3");
 	audio.play();
+	setTimeout(function(){chamarPaginaCameraGirafa()}, 3000);
       }
      function chamarPaginaCameraUrso(){ 
 	window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/application.html";
      }
-     function chamarVaca() {
-       window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/vaca.html"
+     function chamarPaginaCameraVaca() {
+       window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/vaca.html";
      }
-     function chamarCoruja() {
-      window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/coruja.html"
+     function chamarPaginaCameraCoruja() {
+      window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/coruja.html";
+     }
+     function chamarPaginaCameraSapo() {
+      window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/sapo.html";
+     }
+     function chamarPaginaCameraGirafa() {
+      window.location.href = "http://yasminaraujoarantes.github.io/EngenhariaSoftwareIII/Pages/girafa.html";
      }
     </script>
   </div>
