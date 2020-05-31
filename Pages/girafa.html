@@ -52,7 +52,7 @@ AFRAME.registerComponent('run', {
         this.geometry = new THREE.Geometry();
         this.geometry.vertices.push( new THREE.Vector3(-1,-1,-1) );
         this.geometry.vertices.push( new THREE.Vector3( 1, 1, 1) );
-        this.material = new THREE.LineBasicMaterial( {color: 0xFF0000} );
+        this.material = new THREE.LineBasicMaterial( {color: 0x00FF00} );
         this.line = new THREE.Line( this.geometry, this.material );
         let scene = document.querySelector('a-scene').object3D;
         scene.add( this.line );
