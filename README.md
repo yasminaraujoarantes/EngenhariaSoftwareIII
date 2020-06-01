@@ -19,7 +19,7 @@
   A aplicação tem o intuito de auxiliar o professor regente do Ensino Fundamental I na alfabetização,  
 utilizando a formação de palavras que identifica um animal.
 
-### Situação atual do projeto: (1º quinzena de Maio / Parte 2)
+### Situação atual do projeto: (1º quinzena de Junho)
    O projeto encontra-se em desenvolvimento e na fase atual, já é possível fazer o download dos marcadores em PDF, visualizar as regras e exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera, a palavra sapo ao posicionar os marcadores S,A,P,O em frente a câmera, a palavra coruja ao posicionar os marcadores C,O,R,U,J,A em frente a câmera. Também é exibida uma linha a qual começa a partir da primeira letra e é utilizada para guiar a criança a posicionar corretamente as letras para formar a palavra correta. 
     Ao clicar em cada animal, é reproduzido um som, como exemplo, "Monte a palavra urso". 
   
