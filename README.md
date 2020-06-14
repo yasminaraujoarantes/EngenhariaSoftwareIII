@@ -20,7 +20,7 @@
 utilizando a formação de palavras que identifica um animal.
 
 ### Situação atual do projeto: (2º quinzena de maio)
-   O projeto encontra-se em desenvolvimento e na fase atual, já é possível fazer o download dos marcadores em PDF, visualizar as regras e exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera, a palavra sapo ao posicionar os marcadores S,A,P,O em frente a câmera, a palavra coruja ao posicionar os marcadores C,O,R,U,J,A em frente a câmera, a palavra vaca ao posicionar os marcadores V,A,C,A em frente a câmera e a palavra girafa ao posicionar os marcadores G,I,R,A,F,A em frente a câmera. Ao completar a palavra URSO, a imagem de um urso é projetado na tela. 
+   O projeto encontra-se em desenvolvimento e na fase atual, já é possível fazer o download dos marcadores em PDF, visualizar as regras e exibir a palavra urso ao posicionar os marcadores U, R, S, O em frente a câmera, a palavra sapo ao posicionar os marcadores S,A,P,O em frente a câmera, a palavra coruja ao posicionar os marcadores C,O,R,U,J,A em frente a câmera, a palavra vaca ao posicionar os marcadores V,A,C,A em frente a câmera e a palavra girafa ao posicionar os marcadores G,I,R,A,F,A em frente a câmera. Ao completar a palavra URSO, a imagem de um urso é projetado na tela, fica disponível para criança um marcador com a imagem no animal referente a palavra, esse marcador só é ativado quando a palavra for completada. 
     Ao clicar em cada animal, é reproduzido um som, como exemplo, "Monte a palavra urso". 
   
 [![](http://img.youtube.com/vi/gC8usXaUoq4/0.jpg)](http://www.youtube.com/watch?v=gC8usXaUoq4 "Monte a Palavra(Situação Atual)")
