@@ -5,74 +5,43 @@
 <body style="margin: 0px; overflow: hidden;">
 
 <script>
-
-// store visibility data in object;
-//  can only draw line when both are visible.
-let markerVisible = { m0: false, m1: false, m2: false, m3: false };
+let markerVisible = { "m0": false, "m1": false, "m2": false, "m3": false, "urso": false};
 
 AFRAME.registerComponent('registerevents', {
     init: function () 
     {
         let marker = this.el;
-        
+
         marker.addEventListener('markerFound', function() {
             markerVisible[ marker.id ] = true;
+            // console.log( markerVisible );
         });
 
         marker.addEventListener('markerLost', function() {
             markerVisible[ marker.id ] = false;
-        });
-      
-        marker.addEventListener('markerFound', function() {
-            markerVisible[ marker.id ] = true;
+            // console.log( markerVisible );
         });
 
-        marker.addEventListener('markerLost', function() {
-            markerVisible[ marker.id ] = false;
-        });
     }
 });
 
-AFRAME.registerComponent('run', {
+AFRAME.registerComponent('run', 
+{   
     init: function()
     {
-        this.m0 = document.querySelector("#m0");
-        this.m1 = document.querySelector("#m1");
-        this.m2 = document.querySelector("#m2");
-        this.m3 = document.querySelector("#m3");
-        this.p0 = new THREE.Vector3();
-        this.p1 = new THREE.Vector3(); 
-        this.p2 = new THREE.Vector3();
-        this.p3 = new THREE.Vector3(); 
-      
-        this.geometry = new THREE.Geometry();
-        this.geometry.vertices.push( new THREE.Vector3(-1,-1,-1) );
-        this.geometry.vertices.push( new THREE.Vector3( 1, 1, 1) );
-        this.material = new THREE.LineBasicMaterial( {color: 0x00FF00} );
-        this.line = new THREE.Line( this.geometry, this.material );
-        let scene = document.querySelector('a-scene').object3D;
-        scene.add( this.line );
+         entityEl = document.querySelector("#urso");
     },
     
     tick: function (time, deltaTime) 
     {
-        if ( markerVisible["m0"] && markerVisible["m1"])
-        {
-            this.m0.object3D.getWorldPosition(this.p0);
-            this.m1.object3D.getWorldPosition(this.p1);
-            this.m2.object3D.getWorldPosition(this.p2);
-            this.m3.object3D.getWorldPosition(this.p3);
-            this.geometry.vertices[0] = this.p0;
-            this.geometry.vertices[1] = this.p1;
-            this.geometry.vertices[2] = this.p2;
-            this.geometry.vertices[3] = this.p3;
-            this.geometry.verticesNeedUpdate = true;
-            this.line.visible = true;
-        }
-        else
-        {
-            this.line.visible = false;
-        }
+      
+        if (markerVisible["m0"] && markerVisible["m1"] && markerVisible["m2"] && markerVisible["m3"]){
+	        entityEl.object3D.visible = true ;
+          console.log("Parabéns"); 
+       }else {
+	        entityEl.object3D.visible = false ;
+          console.log("Tente novamente"); 
+	}
     }
 });
 
@@ -127,10 +96,23 @@ AFRAME.registerComponent('run', {
         >
         </a-entity>
     </a-marker>
-   
+
+     <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/pattern-fa10280d3e8c9070cc6d6199be583310.patt" id="urso" registerevents>
+     <a-entity
+          gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/BlackBear.gltf)"
+          position="1 1 0"
+          scale="0.1 0.1 0.1"
+          rotation="-90 0 0"
+       >
+      </a-entity>
+    </a-marker>
+
     <a-entity camera></a-entity>
 
     <a-entity run></a-entity>
+
 
 </a-scene>
 </body>
