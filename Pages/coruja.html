@@ -1,0 +1,164 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+<script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script>
+<script defer src="face-api.min.js"></script>
+<script defer src="script.js"></script>
+<title>Coruja</title>
+<style>
+   body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    canvas {
+      position: absolute;
+    }
+</style>
+</head>
+<body>
+  </a-link>
+  <video id="video" width="200" height="200" autoplay muted></video>
+
+  <script>
+    let markerVisible = { "m0": false, "m1": false, "m2": false, "m3": false, "m4": false, "m5": false, "coruja": false};
+    
+    AFRAME.registerComponent('registerevents', {
+        init: function () 
+        {
+            let marker = this.el;
+    
+            marker.addEventListener('markerFound', function() {
+                markerVisible[ marker.id ] = true;
+                // console.log( markerVisible );
+            });
+    
+            marker.addEventListener('markerLost', function() {
+                markerVisible[ marker.id ] = false;
+                // console.log( markerVisible );
+            });
+    
+        }
+    });
+    
+    AFRAME.registerComponent('run', 
+    {   
+        init: function()
+        {
+             entityEl = document.querySelector("#coruja");
+        },
+        
+        tick: function (time, deltaTime) 
+        {
+          
+            if (markerVisible["m0"] && markerVisible["m1"] && markerVisible["m2"] && markerVisible["m3"] && markerVisible["m4"] && markerVisible["m5"]){
+                entityEl.object3D.visible = true ;
+              console.log("Parabéns"); 
+           }else {
+                entityEl.object3D.visible = false ;
+              console.log("Tente novamente"); 
+        }
+        }
+    });
+    
+    </script>
+
+<a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+
+    <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/pattern-C.patt" id="m0" registerevents>
+        <a-entity
+        gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/CC.gltf)"
+            position="1 1 0"
+            scale="0.1 0.1 0.1"
+            rotation="-90 0 0"
+        >
+        </a-entity>
+    </a-marker>
+
+    <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/pattern-O.patt" id="m1" registerevents>
+        <a-entity
+        gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/OO.gltf)"
+            position="1 1 0"
+            scale="0.1 0.1 0.1"
+            rotation="-90 0 0"
+        >
+        </a-entity>
+    </a-marker>
+  
+  <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/pattern-R.patt" id="m2" registerevents>
+        <a-entity
+        gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/RR.gltf)"
+            position="1 1 0"
+            scale="0.1 0.1 0.1"
+            rotation="-90 0 0"
+        >
+        </a-entity>
+    </a-marker>
+  
+    <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/pattern-U.patt" id="m3" registerevents>
+        <a-entity
+        gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/UU.gltf)"
+            position="1 1 0"
+            scale="0.1 0.1 0.1"
+            rotation="-90 0 0"
+        >
+        </a-entity>
+    </a-marker>
+
+    <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/pattern-J.patt" id="m4" registerevents>
+        <a-entity
+        gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/JJ.gltf)"
+            position="1 1 0"
+            scale="0.1 0.1 0.1"
+            rotation="-90 0 0"
+        >
+        </a-entity>
+    </a-marker>
+
+    <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/pattern-A.patt" id="m5" registerevents>
+        <a-entity
+        gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/AA.gltf)"
+            position="1 1 0"
+            scale="0.1 0.1 0.1"
+            rotation="-90 0 0"
+        >
+        </a-entity>
+    </a-marker>
+
+    <a-marker preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Markers/coruja.patt" id="coruja" registerevents>
+     <a-entity
+          gltf-model="url(https://raw.githubusercontent.com/yasminaraujoarantes/EngenhariaSoftwareIII/master/Models/BarnOwl.gltf)"
+          position="1 1 0"
+          scale="0.1 0.1 0.1"
+          rotation="-90 0 0"
+       >
+      </a-entity>
+    </a-marker>
+
+    <a-entity run></a-entity>
+
+</a-scene>
+</body>
+</html>
